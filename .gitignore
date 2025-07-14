@@ -1,0 +1,58 @@
+# Virtual environment created by uv (uvicorn/uvtools)
+.venv/
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyCharm/VS Code IDE files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Log files
+*.log
+uvicorn.log
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Build and distribution directories
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing and coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Uvicorn specific
+.pytest_cache/
+*.sock
+
+# Data files
+*.csv
+*.json
+*.db
+*.sqlite
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Uvicorn reload directories
+reload/
