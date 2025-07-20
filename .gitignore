@@ -56,3 +56,6 @@ Thumbs.db
 
 # Uvicorn reload directories
 reload/
+
+data/
+datasets/
