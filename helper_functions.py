@@ -15,6 +15,7 @@ import zipfile
 from pathlib import Path
 
 import requests
+from timeit import default_timer as timer
 
 # Walk through an image classification directory and find out how many files (images)
 # are in each subdirectory.
@@ -292,3 +293,11 @@ def download_data(source: str,
             os.remove(data_path / target_file)
     
     return image_path
+
+def print_train_time(
+        start: float, 
+        end: float, 
+        device: None):
+    total_time = end - start
+    print(f"Total time taken on {device}: {total_time: 0.3f} seconds")
+    return total_time

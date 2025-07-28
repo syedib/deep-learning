@@ -56,4 +56,10 @@ Thumbs.db
 
 # Uvicorn reload directories
 reload/
+<<<<<<< Updated upstream
 data/
+=======
+
+data/
+datasets/
+>>>>>>> Stashed changes
